@@ -139,7 +139,39 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="37.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="ds_dir_light_pass_tech.cpp" />
+    <ClCompile Include="ds_geom_pass_tech.cpp" />
+    <ClCompile Include="ds_light_pass_tech.cpp" />
+    <ClCompile Include="ds_point_light_pass_tech.cpp" />
+    <ClCompile Include="gbuffer.cpp" />
+    <ClCompile Include="glut_backend.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="math_3d.cpp" />
+    <ClCompile Include="mesh.cpp" />
+    <ClCompile Include="null_technique.cpp" />
+    <ClCompile Include="pipeline.cpp" />
+    <ClCompile Include="technique.cpp" />
+    <ClCompile Include="texture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="callbacks.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="ds_dir_light_pass_tech.h" />
+    <ClInclude Include="ds_geom_pass_tech.h" />
+    <ClInclude Include="ds_light_pass_tech.h" />
+    <ClInclude Include="ds_point_light_pass_tech.h" />
+    <ClInclude Include="engine_common.h" />
+    <ClInclude Include="gbuffer.h" />
+    <ClInclude Include="glut_backend.h" />
+    <ClInclude Include="lights_common.h" />
+    <ClInclude Include="math_3d.h" />
+    <ClInclude Include="mesh.h" />
+    <ClInclude Include="null_technique.h" />
+    <ClInclude Include="pipeline.h" />
+    <ClInclude Include="technique.h" />
+    <ClInclude Include="texture.h" />
+    <ClInclude Include="util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
